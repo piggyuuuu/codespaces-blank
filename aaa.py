@@ -10,7 +10,7 @@ plt.rcParams['axes.unicode_minus'] = False
 
 
 # 读取图像
-img = cv2.imread('20230318184311.png')
+img = cv2.imread('v2-948def5ef922df0751307bb64b758901_r.jpg')
 
 # 将图像转换为灰度图像
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
